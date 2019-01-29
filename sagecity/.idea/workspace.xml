@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a145a9c-224c-4571-9bba-d90c3ef5676a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/build/ci.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/build/ci.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/ethash/algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/ethash/algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/ethash/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/block_validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/block_validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state/state_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state/state_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state/statedb.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state/statedb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state_processor.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state_processor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state_transition.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/state_transition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/types/transaction_signing.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/types/transaction_signing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/contract.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/contract.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/contracts.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/contracts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/evm.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/evm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/core/vm/interpreter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/eth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/eth/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/eth/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/miner/worker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/params/bootnodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/params/bootnodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/params/protocol_params.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/params/protocol_params.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/trie/secure_trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/trie/secure_trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/trie/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/ethereum/go-ethereum/trie/trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/build/ci.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/build/ci.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/consensus/ethash/algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/consensus/ethash/algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/consensus/ethash/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/block_validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/block_validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state/state_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state/state_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state/statedb.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state/statedb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state_processor.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state_processor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state_transition.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/state_transition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/types/transaction_signing.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/types/transaction_signing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/contract.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/contract.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/contracts.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/contracts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/evm.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/evm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/interpreter.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/core/vm/interpreter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/eth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/eth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/eth/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/eth/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/miner/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/miner/worker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/params/bootnodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/params/bootnodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/params/protocol_params.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/params/protocol_params.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/trie/secure_trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/trie/secure_trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/trie/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/go-sagecity/trie/trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/build/ci.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/build/ci.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/consensus/ethash/algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/consensus/ethash/algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/consensus/ethash/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/block_validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/block_validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state/state_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state/state_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state/statedb.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state/statedb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state_processor.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state_processor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state_transition.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/state_transition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/types/transaction_signing.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/types/transaction_signing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/contract.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/contract.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/contracts.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/contracts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/evm.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/evm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/interpreter.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/core/vm/interpreter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/eth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/eth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/eth/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/eth/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/miner/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/miner/worker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/params/bootnodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/params/bootnodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/params/protocol_params.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/params/protocol_params.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/trie/secure_trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/trie/secure_trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/trie/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/_workspace/src/github.com/zdbrig/sagecity/trie/trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ci.go" beforeDir="false" afterPath="$PROJECT_DIR$/build/ci.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/block_validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/block_validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/state_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/state_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state/statedb.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state/statedb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state_processor.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state_processor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/state_transition.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/state_transition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tx_pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/tx_pool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/types/transaction_signing.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/types/transaction_signing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/contract.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/contract.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/contracts.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/contracts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/evm.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/evm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/vm/interpreter.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/vm/interpreter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/sync.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/sync.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/light/txpool.go" beforeDir="false" afterPath="$PROJECT_DIR$/light/txpool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/worker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/bootnodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/bootnodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/protocol_params.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/protocol_params.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/secure_trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/secure_trie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trie/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie/trie.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1057883176">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="c" value="1" />
+          <entry key="go" value="105" />
+          <entry key="sh" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="1" />
+          <entry key="Go" value="105" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="3148" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="3148" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/blockchain.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="915" column="33" lean-forward="true" selection-start-line="915" selection-start-column="33" selection-end-line="915" selection-end-column="33" />
+              <folding>
+                <element signature="e#852#1511#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/tx_pool.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/types/transaction_signing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="175" column="5" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consensus/ethash/consensus.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="552" column="1" selection-start-line="552" selection-start-column="1" selection-end-line="552" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/vm/evm.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="208" column="52" selection-start-line="208" selection-start-column="52" selection-end-line="208" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/state/database.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trie/secure_trie.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trie/trie.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1860">
+              <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trie/node.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/miner/worker.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5010">
+              <caret line="354" column="36" selection-start-line="354" selection-start-column="29" selection-end-line="354" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>usedGas</find>
+      <find>gasCost</find>
+      <find>gasFunc</find>
+      <find>cost</find>
+      <find>TransitionDb</find>
+      <find>transaction</find>
+      <find>tx</find>
+      <find>out of gas</find>
+      <find>ErrorOut</find>
+      <find>ErrOutOfGas</find>
+      <find>to</find>
+      <find>ValidateState</find>
+      <find>AccountRef</find>
+      <find>merk</find>
+      <find>root</find>
+      <find>missing trie node</find>
+      <find>MissingNodeError</find>
+      <find>&quot;0x0170ce90a3de924a917382d662875ef921c07390&quot;</find>
+      <find>Failed to create mining context</find>
+      <find>makeCurrent if err != nil</find>
+      <find>StateAt</find>
+      <find>state.New</find>
+      <find>OpenTrie</find>
+      <find>newSecure</find>
+      <find>New</find>
+      <find>MissingNodeErrorv</find>
+      <find>0x00000000000</find>
+      <find>insufficient funds f</find>
+      <find>0x0170ce90a3de924a917382d662875ef921c07390</find>
+      <find>ErrInsufficientFunds</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/crypto/signature_cgo.go" />
+        <option value="$PROJECT_DIR$/consensus/ethash/algorithm.go" />
+        <option value="$PROJECT_DIR$/contracts/release/release.go" />
+        <option value="$PROJECT_DIR$/core/vm/contract.go" />
+        <option value="$PROJECT_DIR$/core/vm/contracts.go" />
+        <option value="$PROJECT_DIR$/core/types.go" />
+        <option value="$PROJECT_DIR$/core/bloombits/scheduler_test.go" />
+        <option value="$PROJECT_DIR$/eth/handler.go" />
+        <option value="$PROJECT_DIR$/eth/sync.go" />
+        <option value="$PROJECT_DIR$/params/protocol_params.go" />
+        <option value="$PROJECT_DIR$/core/vm/evm.go" />
+        <option value="$PROJECT_DIR$/core/state_processor.go" />
+        <option value="$PROJECT_DIR$/core/state/state_object.go" />
+        <option value="$PROJECT_DIR$/core/state/statedb.go" />
+        <option value="$PROJECT_DIR$/core/block_validator.go" />
+        <option value="$PROJECT_DIR$/core/blockchain_test.go" />
+        <option value="$PROJECT_DIR$/consensus/ethash/consensus.go" />
+        <option value="$PROJECT_DIR$/core/vm/interpreter.go" />
+        <option value="$PROJECT_DIR$/core/state_transition.go" />
+        <option value="$PROJECT_DIR$/miner/worker.go" />
+        <option value="$PROJECT_DIR$/core/state/database.go" />
+        <option value="$PROJECT_DIR$/trie/trie.go" />
+        <option value="$PROJECT_DIR$/trie/secure_trie.go" />
+        <option value="$PROJECT_DIR$/core/types/transaction_signing.go" />
+        <option value="$PROJECT_DIR$/core/blockchain.go" />
+        <option value="$PROJECT_DIR$/core/tx_pool.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sagecity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sagecity" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sagecity" type="462c0819:PsiDirectoryNode" />
+              <item name="consensus" type="462c0819:PsiDirectoryNode" />
+              <item name="ethash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sagecity" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sagecity" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sagecity" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="vm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sagecity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="useGas&#9;null&#9;null&#10;EncodeToBytes&#9;null&#9;null&#10;ErrInsufficientBalance&#9;null&#9;null&#10;Process&#9;FILE&#9;file:///Users/ridha/sagecity/core/state_processor.go&#10;Blocks&#9;null&#9;null&#10;ErrOutOfGas&#9;null&#9;null&#10;InsertChain&#9;null&#9;null&#10;ErrInvalidRecoveryID&#9;null&#9;null&#10;invalid si&#9;null&#9;null&#10;block&#9;null&#9;null&#10;Block&#9;null&#9;null&#10;Discarded&#9;null&#9;null&#10;HexToHash&#9;null&#9;null&#10;Ecrecover&#9;null&#9;null&#10;HexToH&#9;null&#9;null&#10;secp256k1&#9;FILE&#9;file:///Users/ridha/sagecity/crypto/secp256k1/libsecp256k1/src/secp256k1.c&#10;Address&#9;null&#9;null" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="977" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187434" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24519774" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/contracts/release/contract.go</url>
+          <line>241</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/core/vm/interpreter.go</url>
+          <line>226</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/contracts/release/contract.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/contracts.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1267">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/ethash/algorithm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/instructions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eth/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="178" column="44" selection-start-line="178" selection-start-column="44" selection-end-line="178" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/blocks.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params/protocol_params.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/env.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/go/src/sync/atomic/doc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/runtime/env.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/build/env.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/bloombits/scheduler_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/consensus.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-977" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/types/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlp/encode_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="280" column="27" selection-start-line="280" selection-start-column="27" selection-end-line="280" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eth/sync.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1565">
+          <caret line="63" column="57" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state_processor.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="124" column="42" selection-start-line="124" selection-start-column="42" selection-end-line="124" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/evm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state/statedb_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="90" column="31" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/types/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="84" column="69" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/faucet/faucet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6075">
+          <caret line="442" column="74" selection-start-line="442" selection-start-column="74" selection-end-line="442" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/blockchain_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="124" column="36" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlp/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="183" column="29" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlp/typecache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/block_validator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="82" column="22" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/logger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/evm/json_logger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/interpreter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="213" column="28" selection-start-line="213" selection-start-column="28" selection-end-line="213" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state_transition.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="143" column="45" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/contract.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miner/miner.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/abi/bind/backends/simulated.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="259" column="93" selection-start-line="259" selection-start-column="81" selection-end-line="259" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/jump_table.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/swarm/manifest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state/state_object.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state/sync.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state/state_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="203" column="5" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state/statedb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/state/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/secure_trie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/trie.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trie/node.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miner/worker.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5010">
+          <caret line="354" column="36" selection-start-line="354" selection-start-column="29" selection-end-line="354" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/types/transaction_signing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="175" column="5" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vm/evm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="208" column="52" selection-start-line="208" selection-start-column="52" selection-end-line="208" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consensus/ethash/consensus.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="552" column="1" selection-start-line="552" selection-start-column="1" selection-end-line="552" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="915" column="33" lean-forward="true" selection-start-line="915" selection-start-column="33" selection-end-line="915" selection-end-column="33" />
+          <folding>
+            <element signature="e#852#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/tx_pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
