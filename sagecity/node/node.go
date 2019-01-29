@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/internal/debug"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/internal/debug"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

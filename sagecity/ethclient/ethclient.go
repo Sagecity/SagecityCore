@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/rlp"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // Client defines typed wrappers for the Sagecity RPC API.

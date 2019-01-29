@@ -22,12 +22,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 var sha3_nil = crypto.Keccak256Hash(nil)

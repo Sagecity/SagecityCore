@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/consensus/ethash"
-	"github.com/zdbrig/sagecity/eth"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/consensus/ethash"
+	"github.com/SagecityCore/sagecity/eth"
+	"github.com/SagecityCore/sagecity/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

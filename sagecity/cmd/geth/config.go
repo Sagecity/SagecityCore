@@ -28,12 +28,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/contracts/release"
-	"github.com/zdbrig/sagecity/eth"
-	"github.com/zdbrig/sagecity/node"
-	"github.com/zdbrig/sagecity/params"
-	whisper "github.com/zdbrig/sagecity/whisper/whisperv5"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/contracts/release"
+	"github.com/SagecityCore/sagecity/eth"
+	"github.com/SagecityCore/sagecity/node"
+	"github.com/SagecityCore/sagecity/params"
+	whisper "github.com/SagecityCore/sagecity/whisper/whisperv5"
 	"github.com/naoina/toml"
 )
 

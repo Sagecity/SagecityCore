@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/accounts/abi"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/accounts/abi"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 	"github.com/rcrowley/go-metrics"
 	"github.com/rcrowley/go-metrics/exp"
 )

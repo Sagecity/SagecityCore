@@ -19,9 +19,9 @@ package runtime
 import (
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

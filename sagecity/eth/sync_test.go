@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/eth/downloader"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/eth/downloader"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

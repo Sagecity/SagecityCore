@@ -18,11 +18,11 @@
 package consensus
 
 import (
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/params"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/params"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

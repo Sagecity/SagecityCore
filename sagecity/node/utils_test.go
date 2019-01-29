@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

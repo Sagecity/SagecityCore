@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common/mclock"
+	"github.com/SagecityCore/sagecity/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

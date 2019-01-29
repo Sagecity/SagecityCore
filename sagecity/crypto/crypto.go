@@ -28,10 +28,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/crypto/sha3"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 var (

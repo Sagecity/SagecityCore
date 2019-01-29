@@ -29,9 +29,9 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/swarm/api"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/swarm/api"
 )
 
 var (

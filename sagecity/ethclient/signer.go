@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

@@ -23,12 +23,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/rlp"
-	"github.com/zdbrig/sagecity/trie"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/trie"
 )
 
 type revision struct {

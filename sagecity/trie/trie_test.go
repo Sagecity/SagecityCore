@@ -30,10 +30,10 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 func init() {

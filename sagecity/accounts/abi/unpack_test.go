@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 func TestSimpleMethodUnpack(t *testing.T) {

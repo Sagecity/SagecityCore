@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // toGoSliceType parses the input and casts it to the proper slice defined by the ABI

@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zdbrig/sagecity/accounts/abi/bind"
-	"github.com/zdbrig/sagecity/common/compiler"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind"
+	"github.com/SagecityCore/sagecity/common/compiler"
 )
 
 var (

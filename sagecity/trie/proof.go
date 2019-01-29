@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto/sha3"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all

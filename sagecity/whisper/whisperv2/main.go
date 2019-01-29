@@ -27,12 +27,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/logger"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/nat"
-	"github.com/zdbrig/sagecity/whisper"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/logger"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/nat"
+	"github.com/SagecityCore/sagecity/whisper"
 )
 
 func main() {

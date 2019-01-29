@@ -25,10 +25,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

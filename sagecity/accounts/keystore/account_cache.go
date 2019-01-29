@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/log"
 	"gopkg.in/fatih/set.v0"
 )
 

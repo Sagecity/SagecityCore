@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/zdbrig/sagecity/swarm/api"
-	httpapi "github.com/zdbrig/sagecity/swarm/api/http"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/swarm/api"
+	httpapi "github.com/SagecityCore/sagecity/swarm/api/http"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 func NewTestSwarmServer(t *testing.T) *TestSwarmServer {

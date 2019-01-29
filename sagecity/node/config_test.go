@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

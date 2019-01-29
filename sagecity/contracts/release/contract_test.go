@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/accounts/abi/bind"
-	"github.com/zdbrig/sagecity/accounts/abi/bind/backends"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind/backends"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // setupReleaseTest creates a blockchain simulator and deploys a version oracle

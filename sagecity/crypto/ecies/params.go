@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/zdbrig/sagecity/crypto"
+	ethcrypto "github.com/SagecityCore/sagecity/crypto"
 )
 
 var (

@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zdbrig/sagecity/accounts/abi"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/accounts/abi"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

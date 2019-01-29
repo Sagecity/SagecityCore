@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

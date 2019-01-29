@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/zdbrig/sagecity/swarm/network"
+	"github.com/SagecityCore/sagecity/swarm/network"
 )
 
 type Control struct {

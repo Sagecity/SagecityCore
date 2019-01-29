@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 var secureKeyPrefix = []byte("secure-key-")

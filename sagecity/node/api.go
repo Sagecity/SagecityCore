@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/rpc"
 	"github.com/rcrowley/go-metrics"
 )
 

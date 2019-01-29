@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // PublicWhisperAPI provides the whisper RPC service.

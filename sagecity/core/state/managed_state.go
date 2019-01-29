@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 type account struct {

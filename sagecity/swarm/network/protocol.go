@@ -37,12 +37,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zdbrig/sagecity/contracts/chequebook"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p"
-	bzzswap "github.com/zdbrig/sagecity/swarm/services/swap"
-	"github.com/zdbrig/sagecity/swarm/services/swap/swap"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/contracts/chequebook"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p"
+	bzzswap "github.com/SagecityCore/sagecity/swarm/services/swap"
+	"github.com/SagecityCore/sagecity/swarm/services/swap/swap"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 const (

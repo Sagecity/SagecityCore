@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

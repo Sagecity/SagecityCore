@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/crypto/sha3"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/trie"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/trie"
 )
 
 // stateReq represents a batch of state fetch requests groupped together into

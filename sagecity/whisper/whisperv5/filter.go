@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 type Filter struct {

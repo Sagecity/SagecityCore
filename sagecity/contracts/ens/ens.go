@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/zdbrig/sagecity/accounts/abi/bind"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/contracts/ens/contract"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/contracts/ens/contract"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 var (

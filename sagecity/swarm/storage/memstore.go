@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 const (

@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 	"github.com/rjeczalik/notify"
 )
 

@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 var (

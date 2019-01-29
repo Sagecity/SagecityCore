@@ -24,9 +24,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 func testApi(t *testing.T, f func(*Api)) {

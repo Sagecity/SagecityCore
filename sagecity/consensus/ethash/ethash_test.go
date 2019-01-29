@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // Tests that ethash works correctly in test mode.

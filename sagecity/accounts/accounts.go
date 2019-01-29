@@ -20,10 +20,10 @@ package accounts
 import (
 	"math/big"
 
-	sagecity "github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/event"
+	sagecity "github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/event"
 )
 
 // Account represents an Sagecity account located at a specific location defined

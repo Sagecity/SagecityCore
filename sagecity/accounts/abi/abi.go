@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // The ABI holds information about a contract's context and available

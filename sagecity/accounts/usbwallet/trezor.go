@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/accounts/usbwallet/internal/trezor"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/accounts/usbwallet/internal/trezor"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/log"
 	"github.com/golang/protobuf/proto"
 )
 

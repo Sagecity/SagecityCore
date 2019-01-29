@@ -23,22 +23,22 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/sha3"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/params"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/params"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // StateTest checks transaction processing without block context.
-// See https://github.com/zdbrig/EIPs/issues/176 for the test format specification.
+// See https://github.com/SagecityCore/EIPs/issues/176 for the test format specification.
 type StateTest struct {
 	json stJSON
 }
@@ -219,7 +219,7 @@ func (tx *stTransaction) toMessage(ps stPostState) (core.Message, error) {
 	dataHex := tx.Data[ps.Indexes.Data]
 	valueHex := tx.Value[ps.Indexes.Value]
 	gasLimit := tx.GasLimit[ps.Indexes.Gas]
-	// Value, Data hex encoding is messy: https://github.com/zdbrig/tests/issues/203
+	// Value, Data hex encoding is messy: https://github.com/SagecityCore/tests/issues/203
 	value := new(big.Int)
 	if valueHex != "0x" {
 		v, ok := math.ParseBig256(valueHex)

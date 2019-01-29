@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/zdbrig/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

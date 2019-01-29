@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rlp"
 	"gopkg.in/fatih/set.v0"
 )
 

@@ -22,12 +22,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/netutil"
-	"github.com/zdbrig/sagecity/swarm/network/kademlia"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/netutil"
+	"github.com/SagecityCore/sagecity/swarm/network/kademlia"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

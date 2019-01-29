@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

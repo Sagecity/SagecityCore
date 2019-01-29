@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 type journalEntry interface {

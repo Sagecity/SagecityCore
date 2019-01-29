@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // dashboardContent is the actual dashboard HTML content to serve up when users
@@ -208,7 +208,7 @@ var dashboardContent = `
 											<pre>sagecitywallet --rpc $HOME/.{{.Network}}/geth.ipc --node-networkid={{.NetworkID}} --node-datadir=$HOME/.{{.Network}}{{if .Ethstats}} --node-ethstats='{{.Ethstats}}'{{end}} --node-bootnodes={{.BootnodesFullFlat}}</pre>
 										<p>
 										<br/>
-										<p>You can download the Sagecity Wallet from <a href="https://github.com/zdbrig/mist/releases" target="about:blank">https://github.com/zdbrig/mist/releases</a>.</p>
+										<p>You can download the Sagecity Wallet from <a href="https://github.com/SagecityCore/mist/releases" target="about:blank">https://github.com/SagecityCore/mist/releases</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -229,7 +229,7 @@ var dashboardContent = `
 											<pre>mist --rpc $HOME/.{{.Network}}/geth.ipc --node-networkid={{.NetworkID}} --node-datadir=$HOME/.{{.Network}}{{if .Ethstats}} --node-ethstats='{{.Ethstats}}'{{end}} --node-bootnodes={{.BootnodesFullFlat}}</pre>
 										<p>
 										<br/>
-										<p>You can download the Mist browser from <a href="https://github.com/zdbrig/mist/releases" target="about:blank">https://github.com/zdbrig/mist/releases</a>.</p>
+										<p>You can download the Mist browser from <a href="https://github.com/SagecityCore/mist/releases" target="about:blank">https://github.com/SagecityCore/mist/releases</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -253,7 +253,7 @@ var dashboardContent = `
 										<p>Starting with the 1.5 release of sagecity, we've transitioned away from shipping only full blown Sagecity clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for Java based Android projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Sagecity network can nonetheless be accessed from Android too.</p>
 										<p>Under the hood the Android library is backed by a sagecity light node, meaning that given a not-too-old Android device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
-										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/zdbrig/sagecity/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
+										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/SagecityCore/sagecity/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
 										<p>Before connecting to the Sagecity network, download the <a href="/{{.GethGenesis}}"><code>{{.GethGenesis}}</code></a> genesis json file and either store it in your Android project as a resource file you can access, or save it as a string in a variable. You're going to need to to initialize your client.</p>
 										<p>Inside your Java code you can now import the geth archive and connect to Sagecity:
 											<pre>import org.sagecity.geth.*;</pre>
@@ -284,7 +284,7 @@ node.start();
 										<p>Starting with the 1.5 release of sagecity, we've transitioned away from shipping only full blown Sagecity clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for ObjC/Swift based iOS projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Sagecity network can nonetheless be accessed from iOS too.</p>
 										<p>Under the hood the iOS library is backed by a sagecity light node, meaning that given a not-too-old Apple device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
-										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/zdbrig/sagecity/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
+										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/SagecityCore/sagecity/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
 										<p>Before connecting to the Sagecity network, download the <a href="/{{.GethGenesis}}"><code>{{.GethGenesis}}</code></a> genesis json file and either store it in your iOS project as a resource file you can access, or save it as a string in a variable. You're going to need to to initialize your client.</p>
 										<p>Inside your Swift code you can now import the geth framework and connect to Sagecity (ObjC should be analogous):
 											<pre>import Geth</pre>
@@ -322,7 +322,7 @@ try! node?.start();
 										<p>Puppeth is a tool to aid you in creating a new Sagecity network down to the genesis block, bootnodes, signers, ethstats server, crypto faucet, wallet browsers, block explorer, dashboard and more; without the hassle that it would normally entail to manually configure all these services one by one.</p>
 										<p>Puppeth uses ssh to dial in to remote servers, and builds its network components out of docker containers using docker-compose. The user is guided through the process via a command line wizard that does the heavy lifting and topology configuration automatically behind the scenes.</p>
 										<br/>
-										<p>Puppeth is distributed as part of the <a href="https://geth.sagecity.org/downloads/" target="about:blank">Geth &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/zdbrig/sagecity/cmd/puppeth</pre></p>
+										<p>Puppeth is distributed as part of the <a href="https://geth.sagecity.org/downloads/" target="about:blank">Geth &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/SagecityCore/sagecity/cmd/puppeth</pre></p>
 										<br/>
 										<p><em>Copyright 2017. The sagecity Authors.</em></p>
 									</div>

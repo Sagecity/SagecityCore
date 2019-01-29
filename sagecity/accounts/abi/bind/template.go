@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/zdbrig/sagecity/accounts/abi"
+import "github.com/SagecityCore/sagecity/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

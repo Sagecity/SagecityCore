@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	sagecity "github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/common"
+	sagecity "github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // Subscription represents an event subscription where events are

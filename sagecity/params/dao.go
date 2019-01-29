@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

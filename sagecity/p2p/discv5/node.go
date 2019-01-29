@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // Node represents a host on the network.

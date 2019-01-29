@@ -22,8 +22,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // Constants to match up protocol versions and messages

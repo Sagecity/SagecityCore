@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

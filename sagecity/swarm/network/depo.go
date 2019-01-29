@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 // Handler for storage/retrieval related protocol requests

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

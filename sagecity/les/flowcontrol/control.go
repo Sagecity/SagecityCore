@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common/mclock"
+	"github.com/SagecityCore/sagecity/common/mclock"
 )
 
 const fcTimeConst = time.Millisecond

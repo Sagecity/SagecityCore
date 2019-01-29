@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/rpc"
-	whisper "github.com/zdbrig/sagecity/whisper/whisperv5"
+	"github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/rpc"
+	whisper "github.com/SagecityCore/sagecity/whisper/whisperv5"
 )
 
 // Client defines typed wrappers for the Whisper v5 RPC API.

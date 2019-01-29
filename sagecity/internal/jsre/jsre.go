@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/internal/jsre/deps"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

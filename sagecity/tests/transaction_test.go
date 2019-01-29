@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 func TestTransaction(t *testing.T) {

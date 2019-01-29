@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/common/hexutil"
 )
 
 type MyType [5]byte

@@ -15,7 +15,7 @@
 // along with the sagecity library. If not, see <http://www.gnu.org/licenses/>.
 
 // Contains the Whisper protocol Message element. For formal details please see
-// the specs at https://github.com/zdbrig/wiki/wiki/Whisper-PoC-1-Protocol-Spec#messages.
+// the specs at https://github.com/SagecityCore/wiki/wiki/Whisper-PoC-1-Protocol-Spec#messages.
 
 package whisperv2
 
@@ -26,10 +26,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/ecies"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/ecies"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // Message represents an end-user data packet to transmit through the Whisper

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

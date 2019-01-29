@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/metrics"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

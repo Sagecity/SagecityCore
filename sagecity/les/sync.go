@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/eth/downloader"
-	"github.com/zdbrig/sagecity/light"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/eth/downloader"
+	"github.com/SagecityCore/sagecity/light"
 )
 
 const (

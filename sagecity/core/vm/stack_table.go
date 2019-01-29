@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

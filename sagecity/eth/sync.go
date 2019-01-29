@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/eth/downloader"
-	//"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/eth/downloader"
+	//"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p/discover"
 )
 
 const (

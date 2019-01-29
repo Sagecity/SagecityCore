@@ -27,9 +27,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/zdbrig/sagecity/internal/jsre"
-	"github.com/zdbrig/sagecity/internal/web3ext"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/internal/jsre"
+	"github.com/SagecityCore/sagecity/internal/web3ext"
+	"github.com/SagecityCore/sagecity/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

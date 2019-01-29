@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/zdbrig/sagecity"
+import "github.com/SagecityCore/sagecity"
 
 // Verify that Client implements the sagecity interfaces.
 var (

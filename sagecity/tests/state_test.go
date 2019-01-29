@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zdbrig/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/core/vm"
 )
 
 func TestState(t *testing.T) {

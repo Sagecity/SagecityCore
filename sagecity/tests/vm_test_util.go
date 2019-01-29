@@ -22,19 +22,19 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // VMTest checks EVM execution without block or transaction context.
-// See https://github.com/zdbrig/tests/wiki/VM-Tests for the test format specification.
+// See https://github.com/SagecityCore/tests/wiki/VM-Tests for the test format specification.
 type VMTest struct {
 	json vmJSON
 }

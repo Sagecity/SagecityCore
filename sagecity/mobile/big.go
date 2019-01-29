@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

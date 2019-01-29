@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/nat"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/nat"
 )
 
 const (

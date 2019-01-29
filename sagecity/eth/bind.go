@@ -20,13 +20,13 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/internal/ethapi"
-	"github.com/zdbrig/sagecity/rlp"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/internal/ethapi"
+	"github.com/SagecityCore/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // ContractBackend implements bind.ContractBackend with direct calls to Sagecity

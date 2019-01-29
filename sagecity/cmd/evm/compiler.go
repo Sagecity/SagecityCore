@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/zdbrig/sagecity/cmd/evm/internal/compiler"
+	"github.com/SagecityCore/sagecity/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -24,12 +24,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/contracts/ens"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/swarm/network"
-	"github.com/zdbrig/sagecity/swarm/services/swap"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/contracts/ens"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/swarm/network"
+	"github.com/SagecityCore/sagecity/swarm/services/swap"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 const (

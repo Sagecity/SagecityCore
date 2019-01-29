@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/consensus/ethash"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/consensus/ethash"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {

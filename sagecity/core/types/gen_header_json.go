@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
 )
 
 func (h Header) MarshalJSON() ([]byte, error) {

@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/crypto/randentropy"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/crypto/randentropy"
 )
 
 const TestCount = 1000

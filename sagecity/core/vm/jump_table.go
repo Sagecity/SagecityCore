@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 type (

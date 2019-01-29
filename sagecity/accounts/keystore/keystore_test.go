@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/event"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/event"
 )
 
 var testSigData = make([]byte, 32)

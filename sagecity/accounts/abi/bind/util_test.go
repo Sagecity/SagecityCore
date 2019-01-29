@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts/abi/bind"
-	"github.com/zdbrig/sagecity/accounts/abi/bind/backends"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind/backends"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

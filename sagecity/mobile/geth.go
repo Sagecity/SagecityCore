@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/eth"
-	"github.com/zdbrig/sagecity/eth/downloader"
-	"github.com/zdbrig/sagecity/ethclient"
-	"github.com/zdbrig/sagecity/ethstats"
-	"github.com/zdbrig/sagecity/les"
-	"github.com/zdbrig/sagecity/node"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/nat"
-	"github.com/zdbrig/sagecity/params"
-	whisper "github.com/zdbrig/sagecity/whisper/whisperv5"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/eth"
+	"github.com/SagecityCore/sagecity/eth/downloader"
+	"github.com/SagecityCore/sagecity/ethclient"
+	"github.com/SagecityCore/sagecity/ethstats"
+	"github.com/SagecityCore/sagecity/les"
+	"github.com/SagecityCore/sagecity/node"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/nat"
+	"github.com/SagecityCore/sagecity/params"
+	whisper "github.com/SagecityCore/sagecity/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

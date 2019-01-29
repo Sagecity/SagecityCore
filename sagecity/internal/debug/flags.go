@@ -24,8 +24,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/log/term"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/log/term"
 	colorable "github.com/mattn/go-colorable"
 	"gopkg.in/urfave/cli.v1"
 )

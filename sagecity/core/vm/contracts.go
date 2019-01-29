@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/bn256"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/bn256"
+	"github.com/SagecityCore/sagecity/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

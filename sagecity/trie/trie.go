@@ -21,9 +21,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto/sha3"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/log"
 	"github.com/rcrowley/go-metrics"
 )
 

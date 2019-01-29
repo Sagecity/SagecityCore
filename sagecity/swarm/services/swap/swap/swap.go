@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // SwAP Swarm Accounting Protocol with

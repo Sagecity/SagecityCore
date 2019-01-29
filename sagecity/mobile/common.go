@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

@@ -19,11 +19,11 @@ package node
 import (
 	"reflect"
 
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

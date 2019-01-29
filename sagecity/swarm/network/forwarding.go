@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 const requesterCount = 3

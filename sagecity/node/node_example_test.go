@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/zdbrig/sagecity/node"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/node"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

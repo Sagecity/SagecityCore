@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

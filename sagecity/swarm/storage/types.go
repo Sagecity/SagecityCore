@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/zdbrig/sagecity/bmt"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/bmt"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
 )
 
 type Hasher func() hash.Hash

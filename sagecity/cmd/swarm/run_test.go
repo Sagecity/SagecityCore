@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/zdbrig/sagecity/accounts/keystore"
-	"github.com/zdbrig/sagecity/internal/cmdtest"
-	"github.com/zdbrig/sagecity/node"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
-	"github.com/zdbrig/sagecity/swarm"
+	"github.com/SagecityCore/sagecity/accounts/keystore"
+	"github.com/SagecityCore/sagecity/internal/cmdtest"
+	"github.com/SagecityCore/sagecity/node"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/swarm"
 )
 
 func init() {

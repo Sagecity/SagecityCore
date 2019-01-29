@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 func TestByteOp(t *testing.T) {

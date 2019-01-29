@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/consensus"
-	"github.com/zdbrig/sagecity/consensus/misc"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/consensus"
+	"github.com/SagecityCore/sagecity/consensus/misc"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

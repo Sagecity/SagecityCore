@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/swarm/api"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/swarm/api"
 )
 
 //templateMap holds a mapping of an HTTP error code to a template

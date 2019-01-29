@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zdbrig/sagecity/common/bitutil"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/common/bitutil"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

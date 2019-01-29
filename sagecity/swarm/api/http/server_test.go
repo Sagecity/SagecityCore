@@ -26,11 +26,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/swarm/api"
-	swarm "github.com/zdbrig/sagecity/swarm/api/client"
-	"github.com/zdbrig/sagecity/swarm/storage"
-	"github.com/zdbrig/sagecity/swarm/testutil"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/swarm/api"
+	swarm "github.com/SagecityCore/sagecity/swarm/api/client"
+	"github.com/SagecityCore/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/swarm/testutil"
 )
 
 func TestBzzrGetPath(t *testing.T) {

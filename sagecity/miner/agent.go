@@ -21,8 +21,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/zdbrig/sagecity/consensus"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/consensus"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 type CpuAgent struct {

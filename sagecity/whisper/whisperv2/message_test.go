@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // Tests whether a message can be wrapped without any identity or encryption.

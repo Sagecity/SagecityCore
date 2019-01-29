@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zdbrig/sagecity/swarm/api"
+	"github.com/SagecityCore/sagecity/swarm/api"
 )
 
 var (

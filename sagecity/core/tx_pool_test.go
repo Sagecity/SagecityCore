@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // testTxPoolConfig is a transaction pool configuration without stateful disk

@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

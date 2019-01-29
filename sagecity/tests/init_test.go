@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 var (

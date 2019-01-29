@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

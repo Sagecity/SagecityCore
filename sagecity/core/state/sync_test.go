@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/trie"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

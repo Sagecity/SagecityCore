@@ -27,13 +27,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common/mclock"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/discv5"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common/mclock"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/discv5"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 const (

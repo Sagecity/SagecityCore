@@ -23,13 +23,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // The values in those tests are from the Transaction Tests
-// at github.com/zdbrig/tests.
+// at github.com/SagecityCore/tests.
 var (
 	emptyTx = NewTransaction(
 		0,

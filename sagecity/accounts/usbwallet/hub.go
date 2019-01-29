@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/log"
 	"github.com/karalabe/hid"
 )
 

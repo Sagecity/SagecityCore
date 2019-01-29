@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

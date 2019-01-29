@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/nat"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/nat"
 )
 
 var keys []string = []string{

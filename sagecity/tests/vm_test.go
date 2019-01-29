@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/zdbrig/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/core/vm"
 )
 
 func TestVM(t *testing.T) {

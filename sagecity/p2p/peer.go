@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common/mclock"
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common/mclock"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 const (

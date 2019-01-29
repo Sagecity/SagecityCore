@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

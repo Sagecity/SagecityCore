@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/netutil"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/netutil"
 )
 
 const (

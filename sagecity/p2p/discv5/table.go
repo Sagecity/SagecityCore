@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 const (

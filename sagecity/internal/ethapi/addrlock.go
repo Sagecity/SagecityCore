@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 type AddrLocker struct {

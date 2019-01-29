@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/ethclient"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/ethclient"
 )
 
 // SagecityClient provides access to the Sagecity APIs.

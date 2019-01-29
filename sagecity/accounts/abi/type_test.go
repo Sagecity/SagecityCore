@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // typeWithoutStringer is a alias for the Type type which simply doesn't implement

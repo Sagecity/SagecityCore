@@ -19,9 +19,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

@@ -26,11 +26,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/ecies"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/ecies"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

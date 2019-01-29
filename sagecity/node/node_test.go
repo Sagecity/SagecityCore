@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 func init() {

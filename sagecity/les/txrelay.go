@@ -19,8 +19,8 @@ package les
 import (
 	"sync"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 type ltrInfo struct {

@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/event"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/event"
 )
 
 // Implement our EthTest Manager

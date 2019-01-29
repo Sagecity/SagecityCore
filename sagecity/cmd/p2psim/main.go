@@ -29,12 +29,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/simulations"
-	"github.com/zdbrig/sagecity/p2p/simulations/adapters"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/simulations"
+	"github.com/SagecityCore/sagecity/p2p/simulations/adapters"
+	"github.com/SagecityCore/sagecity/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

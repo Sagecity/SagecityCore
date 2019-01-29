@@ -15,7 +15,7 @@
 // along with the sagecity library. If not, see <http://www.gnu.org/licenses/>.
 
 // Contains the Whisper protocol Envelope element. For formal details please see
-// the specs at https://github.com/zdbrig/wiki/wiki/Whisper-PoC-1-Protocol-Spec#envelopes.
+// the specs at https://github.com/SagecityCore/wiki/wiki/Whisper-PoC-1-Protocol-Spec#envelopes.
 
 package whisperv2
 
@@ -26,11 +26,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/ecies"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/ecies"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

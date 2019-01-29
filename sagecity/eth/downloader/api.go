@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	sagecity "github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/rpc"
+	sagecity "github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 type testInPayment struct {

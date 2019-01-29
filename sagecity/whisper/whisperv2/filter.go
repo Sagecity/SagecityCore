@@ -21,7 +21,7 @@ package whisperv2
 import (
 	"crypto/ecdsa"
 
-	"github.com/zdbrig/sagecity/event/filter"
+	"github.com/SagecityCore/sagecity/event/filter"
 )
 
 // Filter is used to subscribe to specific types of whisper messages.

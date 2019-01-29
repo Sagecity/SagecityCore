@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/accounts/keystore"
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/console"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/accounts/keystore"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/console"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -17,7 +17,7 @@
 // Package bind generates Sagecity contract Go bindings.
 //
 // Detailed usage document and tutorial available on the sagecity Wiki page:
-// https://github.com/zdbrig/sagecity/wiki/Native-DApps:-Go-bindings-to-Sagecity-contracts
+// https://github.com/SagecityCore/sagecity/wiki/Native-DApps:-Go-bindings-to-Sagecity-contracts
 package bind
 
 import (
@@ -28,7 +28,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/zdbrig/sagecity/accounts/abi"
+	"github.com/SagecityCore/sagecity/accounts/abi"
 	"golang.org/x/tools/imports"
 )
 

@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
 )
 
 const (

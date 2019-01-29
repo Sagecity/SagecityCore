@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // This table defines supported forks and their chain config.

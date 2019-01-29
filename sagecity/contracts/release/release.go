@@ -25,15 +25,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts/abi/bind"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/eth"
-	"github.com/zdbrig/sagecity/internal/ethapi"
-	"github.com/zdbrig/sagecity/les"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/node"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/eth"
+	"github.com/SagecityCore/sagecity/internal/ethapi"
+	"github.com/SagecityCore/sagecity/les"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/node"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 // Interval to check for new releases
@@ -149,7 +149,7 @@ func (r *ReleaseService) checkVersion() {
 
 		warning := fmt.Sprintf("Client v%d.%d.%d-%x seems older than the latest upstream release v%d.%d.%d-%x",
 			r.config.Major, r.config.Minor, r.config.Patch, r.config.Commit[:4], version.Major, version.Minor, version.Patch, version.Commit[:4])
-		howtofix := fmt.Sprintf("Please check https://github.com/zdbrig/sagecity/releases for new releases")
+		howtofix := fmt.Sprintf("Please check https://github.com/SagecityCore/sagecity/releases for new releases")
 		separator := strings.Repeat("-", len(warning))
 
 		log.Warn(separator)

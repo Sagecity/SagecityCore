@@ -19,9 +19,9 @@ package les
 import (
 	"context"
 
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/light"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/light"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // LesOdr implements light.OdrBackend

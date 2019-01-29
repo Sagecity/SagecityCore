@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 func (Address) Generate(rand *rand.Rand, size int) reflect.Value {

@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/ethdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

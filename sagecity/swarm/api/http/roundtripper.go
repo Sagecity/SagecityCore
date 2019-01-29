@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/zdbrig/sagecity/issues/2040
+see https://github.com/SagecityCore/sagecity/issues/2040
 Usage:
 
 import (
- "github.com/zdbrig/sagecity/common/httpclient"
- "github.com/zdbrig/sagecity/swarm/api/http"
+ "github.com/SagecityCore/sagecity/common/httpclient"
+ "github.com/SagecityCore/sagecity/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

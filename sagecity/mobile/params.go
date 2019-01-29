@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/p2p/discv5"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/p2p/discv5"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // SagecitynetGenesis returns the JSON spec to use for the main Sagecity network. It

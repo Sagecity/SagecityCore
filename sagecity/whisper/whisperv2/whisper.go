@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/ecies"
-	"github.com/zdbrig/sagecity/event/filter"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/ecies"
+	"github.com/SagecityCore/sagecity/event/filter"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/rpc"
 
 	"gopkg.in/fatih/set.v0"
 )

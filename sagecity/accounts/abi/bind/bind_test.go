@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 	"golang.org/x/tools/imports"
 )
 

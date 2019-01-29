@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 func TestSet(t *testing.T) {

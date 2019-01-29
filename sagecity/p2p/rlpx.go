@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/ecies"
-	"github.com/zdbrig/sagecity/crypto/secp256k1"
-	"github.com/zdbrig/sagecity/crypto/sha3"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/ecies"
+	"github.com/SagecityCore/sagecity/crypto/secp256k1"
+	"github.com/SagecityCore/sagecity/crypto/sha3"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/rlp"
 	"github.com/golang/snappy"
 )
 

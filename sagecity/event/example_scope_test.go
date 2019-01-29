@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/zdbrig/sagecity/event"
+	"github.com/SagecityCore/sagecity/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

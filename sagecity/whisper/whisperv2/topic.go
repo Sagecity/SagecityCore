@@ -15,11 +15,11 @@
 // along with the sagecity library. If not, see <http://www.gnu.org/licenses/>.
 
 // Contains the Whisper protocol Topic element. For formal details please see
-// the specs at https://github.com/zdbrig/wiki/wiki/Whisper-PoC-1-Protocol-Spec#topics.
+// the specs at https://github.com/SagecityCore/wiki/wiki/Whisper-PoC-1-Protocol-Spec#topics.
 
 package whisperv2
 
-import "github.com/zdbrig/sagecity/crypto"
+import "github.com/SagecityCore/sagecity/crypto"
 
 // Topic represents a cryptographically secure, probabilistic partial
 // classifications of a message, determined as the first (left) 4 bytes of the

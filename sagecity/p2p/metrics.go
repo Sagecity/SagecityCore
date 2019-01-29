@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/zdbrig/sagecity/metrics"
+	"github.com/SagecityCore/sagecity/metrics"
 )
 
 var (

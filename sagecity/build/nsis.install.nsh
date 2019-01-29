@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/zdbrig/sagecity/issues"
-!define UPDATEURL "https://github.com/zdbrig/sagecity/releases"
-!define ABOUTURL "https://github.com/zdbrig/sagecity#sagecity-go"
+!define HELPURL "https://github.com/SagecityCore/sagecity/issues"
+!define UPDATEURL "https://github.com/SagecityCore/sagecity/releases"
+!define ABOUTURL "https://github.com/SagecityCore/sagecity#sagecity-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license
@@ -33,7 +33,7 @@ Section "Geth" GETH_IDX
   SimpleFC::AdvAddRule "Geth outgoing peers (TCP:60888)" ""  6 2 1 2147483647 1 "$INSTDIR\geth.exe" "" "" "Sagecity" "" 30303 "" ""
   SimpleFC::AdvAddRule "Geth UDP discovery (UDP:60888)" "" 17 2 1 2147483647 1 "$INSTDIR\geth.exe" "" "" "Sagecity" "" 30303 "" ""
 
-  # Set default IPC endpoint (https://github.com/zdbrig/EIPs/issues/147)
+  # Set default IPC endpoint (https://github.com/SagecityCore/EIPs/issues/147)
   ${EnvVarUpdate} $0 "SAGECITY_SOCKET" "R" "HKLM" "\\.\pipe\geth.ipc"
   ${EnvVarUpdate} $0 "SAGECITY_SOCKET" "A" "HKLM" "\\.\pipe\geth.ipc"
 

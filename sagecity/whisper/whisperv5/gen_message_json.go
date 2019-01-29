@@ -5,7 +5,7 @@ package whisperv5
 import (
 	"encoding/json"
 
-	"github.com/zdbrig/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/common/hexutil"
 )
 
 var _ = (*messageOverride)(nil)

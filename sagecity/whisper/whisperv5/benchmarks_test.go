@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

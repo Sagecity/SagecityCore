@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

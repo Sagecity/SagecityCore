@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

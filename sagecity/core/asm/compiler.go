@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/core/vm"
 )
 
 // Compiler contains information about the parsed source

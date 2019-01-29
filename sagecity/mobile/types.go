@@ -23,9 +23,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

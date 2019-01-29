@@ -23,13 +23,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/discv5"
-	"github.com/zdbrig/sagecity/p2p/nat"
-	"github.com/zdbrig/sagecity/p2p/netutil"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/discv5"
+	"github.com/SagecityCore/sagecity/p2p/nat"
+	"github.com/SagecityCore/sagecity/p2p/netutil"
 )
 
 func main() {

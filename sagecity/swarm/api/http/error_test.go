@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zdbrig/sagecity/swarm/testutil"
+	"github.com/SagecityCore/sagecity/swarm/testutil"
 )
 
 func TestError(t *testing.T) {

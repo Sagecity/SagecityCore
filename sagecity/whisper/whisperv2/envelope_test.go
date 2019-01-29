@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/crypto"
-	"github.com/zdbrig/sagecity/crypto/ecies"
+	"github.com/SagecityCore/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto/ecies"
 )
 
 func TestEnvelopeOpen(t *testing.T) {

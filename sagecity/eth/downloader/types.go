@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

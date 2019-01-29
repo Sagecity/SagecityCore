@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/node"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/simulations"
-	"github.com/zdbrig/sagecity/p2p/simulations/adapters"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/node"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/simulations"
+	"github.com/SagecityCore/sagecity/p2p/simulations/adapters"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

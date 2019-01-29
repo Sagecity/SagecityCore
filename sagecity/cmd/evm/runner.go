@@ -27,16 +27,16 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/zdbrig/sagecity/cmd/evm/internal/compiler"
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/core/vm/runtime"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/cmd/evm/internal/compiler"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/core/vm/runtime"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/params"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

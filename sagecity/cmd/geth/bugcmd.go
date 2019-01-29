@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/zdbrig/sagecity/cmd/internal/browser"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/cmd/internal/browser"
+	"github.com/SagecityCore/sagecity/params"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/zdbrig/sagecity/issues/new"
+const issueUrl = "https://github.com/SagecityCore/sagecity/issues/new"
 
 // reportBug reports a bug by opening a new URL to the sagecity GH issue
 // tracker and setting default values as the issue body.

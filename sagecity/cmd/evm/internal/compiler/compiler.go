@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/core/asm"
+	"github.com/SagecityCore/sagecity/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

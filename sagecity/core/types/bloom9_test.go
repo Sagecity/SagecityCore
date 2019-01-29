@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/zdbrig/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/state"
 )
 
 func TestBloom9(t *testing.T) {

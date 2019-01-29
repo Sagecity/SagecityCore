@@ -28,11 +28,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/p2p/simulations/adapters"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/simulations/adapters"
+	"github.com/SagecityCore/sagecity/rpc"
 	"github.com/julienschmidt/httprouter"
 	"golang.org/x/net/websocket"
 )

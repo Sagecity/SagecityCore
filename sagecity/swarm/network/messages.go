@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/zdbrig/sagecity/contracts/chequebook"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/swarm/network/kademlia"
-	"github.com/zdbrig/sagecity/swarm/services/swap"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/contracts/chequebook"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/swarm/network/kademlia"
+	"github.com/SagecityCore/sagecity/swarm/services/swap"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 /*

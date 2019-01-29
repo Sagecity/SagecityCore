@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 func TestWhisperBasic(t *testing.T) {

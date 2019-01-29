@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 const (

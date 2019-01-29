@@ -24,10 +24,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/consensus"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/consensus"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // Seal implements consensus.Engine, attempting to find a nonce that satisfies

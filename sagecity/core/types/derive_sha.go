@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/rlp"
-	"github.com/zdbrig/sagecity/trie"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/trie"
 )
 
 type DerivableList interface {

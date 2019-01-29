@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 	"golang.org/x/net/websocket"
 	"gopkg.in/fatih/set.v0"
 )

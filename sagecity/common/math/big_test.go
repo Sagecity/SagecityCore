@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

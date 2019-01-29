@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 var dumpEnc bool

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/zdbrig/sagecity/accounts/keystore"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/accounts/keystore"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

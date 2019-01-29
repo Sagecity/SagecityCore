@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/node"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/node"
+	"github.com/SagecityCore/sagecity/rpc"
 	"github.com/gizak/termui"
 	"gopkg.in/urfave/cli.v1"
 )

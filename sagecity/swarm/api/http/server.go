@@ -35,10 +35,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/swarm/api"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/swarm/api"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 	"github.com/rs/cors"
 )
 

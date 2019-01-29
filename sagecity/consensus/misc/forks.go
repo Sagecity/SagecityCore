@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

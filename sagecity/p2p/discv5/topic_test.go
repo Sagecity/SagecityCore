@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/mclock"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

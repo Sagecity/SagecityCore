@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/ethdb"
 )
 
 func TestIterator(t *testing.T) {

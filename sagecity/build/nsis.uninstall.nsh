@@ -21,7 +21,7 @@ Section "Uninstall"
   SimpleFC::AdvRemoveRule "Geth outgoing peers (TCP:60888)"
   SimpleFC::AdvRemoveRule "Geth UDP discovery (UDP:60888)"
 
-  # Remove IPC endpoint (https://github.com/zdbrig/EIPs/issues/147)
+  # Remove IPC endpoint (https://github.com/SagecityCore/EIPs/issues/147)
   ${un.EnvVarUpdate} $0 "SAGECITY_SOCKET" "R" "HKLM" "\\.\pipe\geth.ipc"
 
   # Remove install directory from PATH

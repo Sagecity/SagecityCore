@@ -22,10 +22,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/internal/ethapi"
-	"github.com/zdbrig/sagecity/params"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/internal/ethapi"
+	"github.com/SagecityCore/sagecity/params"
+	"github.com/SagecityCore/sagecity/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

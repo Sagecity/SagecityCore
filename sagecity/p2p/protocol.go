@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

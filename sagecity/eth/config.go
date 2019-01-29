@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/common/hexutil"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/eth/downloader"
-	"github.com/zdbrig/sagecity/eth/gasprice"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/eth/downloader"
+	"github.com/SagecityCore/sagecity/eth/gasprice"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 // DefaultConfig contains default settings for use on the Sagecity main net.

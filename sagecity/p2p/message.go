@@ -27,9 +27,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zdbrig/sagecity/event"
-	"github.com/zdbrig/sagecity/p2p/discover"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/event"
+	"github.com/SagecityCore/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 // Msg defines the structure of a p2p message.

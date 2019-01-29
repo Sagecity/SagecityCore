@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

@@ -25,8 +25,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/zdbrig/sagecity/swarm/api"
-	"github.com/zdbrig/sagecity/swarm/testutil"
+	"github.com/SagecityCore/sagecity/swarm/api"
+	"github.com/SagecityCore/sagecity/swarm/testutil"
 )
 
 // TestClientUploadDownloadRaw test uploading and downloading raw data to swarm

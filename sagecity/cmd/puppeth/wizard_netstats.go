@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/log"
 	"github.com/olekukonko/tablewriter"
 )
 

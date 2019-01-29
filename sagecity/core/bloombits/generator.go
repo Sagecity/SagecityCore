@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // errSectionOutOfBounds is returned if the user tried to add more bloom filters

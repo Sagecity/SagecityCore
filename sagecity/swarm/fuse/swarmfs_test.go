@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zdbrig/sagecity/swarm/api"
-	"github.com/zdbrig/sagecity/swarm/storage"
+	"github.com/SagecityCore/sagecity/swarm/api"
+	"github.com/SagecityCore/sagecity/swarm/storage"
 )
 
 type fileInfo struct {

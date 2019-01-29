@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/zdbrig/sagecity/core/asm"
+	"github.com/SagecityCore/sagecity/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

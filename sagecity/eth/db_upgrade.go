@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

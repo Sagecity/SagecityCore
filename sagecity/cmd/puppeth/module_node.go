@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Sagecity node.

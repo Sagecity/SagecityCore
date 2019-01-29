@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/zdbrig/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p/discover"
 )
 
 // Simulation provides a framework for running actions in a simulated network

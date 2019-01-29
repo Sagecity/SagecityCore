@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts/usbwallet"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/accounts/usbwallet"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/rpc"
 	"github.com/robertkrimen/otto"
 )
 

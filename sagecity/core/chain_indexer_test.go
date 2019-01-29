@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/ethdb"
 )
 
 // Runs multiple tests with randomized parameters.

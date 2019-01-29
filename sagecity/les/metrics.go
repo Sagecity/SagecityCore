@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/zdbrig/sagecity/metrics"
-	"github.com/zdbrig/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/metrics"
+	"github.com/SagecityCore/sagecity/p2p"
 )
 
 var (

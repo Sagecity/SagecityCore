@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/zdbrig/sagecity/consensus/ethash"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/ethdb"
-	"github.com/zdbrig/sagecity/params"
-	"github.com/zdbrig/sagecity/trie"
+	"github.com/SagecityCore/sagecity/consensus/ethash"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/params"
+	"github.com/SagecityCore/sagecity/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

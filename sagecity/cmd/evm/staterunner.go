@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/zdbrig/sagecity/core/state"
-	"github.com/zdbrig/sagecity/core/vm"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/tests"
+	"github.com/SagecityCore/sagecity/core/state"
+	"github.com/SagecityCore/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

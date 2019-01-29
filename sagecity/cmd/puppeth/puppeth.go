@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

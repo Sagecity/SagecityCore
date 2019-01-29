@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

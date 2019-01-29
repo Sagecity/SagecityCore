@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 const (

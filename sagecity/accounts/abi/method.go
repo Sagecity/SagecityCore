@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 // Callable method given a `Name` and whether the method is a constant.

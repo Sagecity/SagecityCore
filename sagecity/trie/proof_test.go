@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/rlp"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/rlp"
 )
 
 func init() {

@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts/keystore"
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/accounts/keystore"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // Tests that the account management snippets work correctly.

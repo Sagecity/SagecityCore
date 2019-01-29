@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/core/vm"
+	"github.com/SagecityCore/sagecity/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

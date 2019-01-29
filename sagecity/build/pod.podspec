@@ -2,12 +2,12 @@ Pod::Spec.new do |spec|
   spec.name         = 'Geth'
   spec.version      = '{{.Version}}'
   spec.license      = { :type => 'GNU Lesser General Public License, Version 3.0' }
-  spec.homepage     = 'https://github.com/zdbrig/sagecity'
+  spec.homepage     = 'https://github.com/SagecityCore/sagecity'
   spec.authors      = { {{range .Contributors}}
 		'{{.Name}}' => '{{.Email}}',{{end}}
 	}
   spec.summary      = 'iOS Sagecity Client'
-  spec.source       = { :git => 'https://github.com/zdbrig/sagecity.git', :commit => '{{.Commit}}' }
+  spec.source       = { :git => 'https://github.com/SagecityCore/sagecity.git', :commit => '{{.Commit}}' }
 
 	spec.platform = :ios
   spec.ios.deployment_target  = '9.0'

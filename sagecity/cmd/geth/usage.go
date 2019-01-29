@@ -22,8 +22,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
-	"github.com/zdbrig/sagecity/internal/debug"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	"github.com/SagecityCore/sagecity/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

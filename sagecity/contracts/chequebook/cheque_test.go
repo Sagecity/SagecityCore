@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/accounts/abi/bind"
-	"github.com/zdbrig/sagecity/accounts/abi/bind/backends"
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/contracts/chequebook/contract"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/crypto"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind"
+	"github.com/SagecityCore/sagecity/accounts/abi/bind/backends"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/contracts/chequebook/contract"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/crypto"
 )
 
 var (

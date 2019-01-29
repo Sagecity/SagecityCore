@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zdbrig/sagecity/common/hexutil"
+	"github.com/SagecityCore/sagecity/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

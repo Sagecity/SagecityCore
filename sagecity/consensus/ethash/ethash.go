@@ -32,9 +32,9 @@ import (
 	"unsafe"
 
 	mmap "github.com/edsrzf/mmap-go"
-	"github.com/zdbrig/sagecity/consensus"
-	"github.com/zdbrig/sagecity/log"
-	"github.com/zdbrig/sagecity/rpc"
+	"github.com/SagecityCore/sagecity/consensus"
+	"github.com/SagecityCore/sagecity/log"
+	"github.com/SagecityCore/sagecity/rpc"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

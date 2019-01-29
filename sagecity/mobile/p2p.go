@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/zdbrig/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/zdbrig/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

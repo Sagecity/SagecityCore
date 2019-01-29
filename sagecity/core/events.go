@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

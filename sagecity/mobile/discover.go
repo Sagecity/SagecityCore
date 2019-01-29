@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/zdbrig/sagecity/p2p/discv5"
+	"github.com/SagecityCore/sagecity/p2p/discv5"
 )
 
 // Enode represents a host on the network.

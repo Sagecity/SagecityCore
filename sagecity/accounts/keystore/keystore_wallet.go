@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	sagecity "github.com/zdbrig/sagecity"
-	"github.com/zdbrig/sagecity/accounts"
-	"github.com/zdbrig/sagecity/core/types"
+	sagecity "github.com/SagecityCore/sagecity"
+	"github.com/SagecityCore/sagecity/accounts"
+	"github.com/SagecityCore/sagecity/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common/math"
-	"github.com/zdbrig/sagecity/core/types"
-	"github.com/zdbrig/sagecity/params"
+	"github.com/SagecityCore/sagecity/common/math"
+	"github.com/SagecityCore/sagecity/core/types"
+	"github.com/SagecityCore/sagecity/params"
 )
 
 type diffTest struct {

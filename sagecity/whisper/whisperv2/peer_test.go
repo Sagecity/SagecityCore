@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/p2p"
-	"github.com/zdbrig/sagecity/p2p/discover"
+	"github.com/SagecityCore/sagecity/p2p"
+	"github.com/SagecityCore/sagecity/p2p/discover"
 )
 
 type testPeer struct {

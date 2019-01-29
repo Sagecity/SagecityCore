@@ -24,7 +24,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

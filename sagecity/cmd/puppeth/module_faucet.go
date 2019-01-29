@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build an faucet container to
@@ -38,9 +38,9 @@ ENV GOPATH /go
 
 RUN \
   apk add --update git go make gcc musl-dev ca-certificates linux-headers                             && \
-	mkdir -p $GOPATH/src/github.com/zdbrig                                                            && \
-	(cd $GOPATH/src/github.com/zdbrig && git clone --depth=1 https://github.com/zdbrig/sagecity) && \
-  go build -v github.com/zdbrig/sagecity/cmd/faucet                                              && \
+	mkdir -p $GOPATH/src/github.com/SagecityCore                                                            && \
+	(cd $GOPATH/src/github.com/SagecityCore && git clone --depth=1 https://github.com/SagecityCore/sagecity) && \
+  go build -v github.com/SagecityCore/sagecity/cmd/faucet                                              && \
   apk del git go make gcc musl-dev linux-headers                                                      && \
   rm -rf $GOPATH && rm -rf /var/cache/apk/*
 

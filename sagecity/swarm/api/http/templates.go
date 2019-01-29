@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/zdbrig/sagecity/swarm/api"
+	"github.com/SagecityCore/sagecity/swarm/api"
 )
 
 type htmlListData struct {

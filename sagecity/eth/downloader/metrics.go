@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/zdbrig/sagecity/metrics"
+	"github.com/SagecityCore/sagecity/metrics"
 )
 
 var (

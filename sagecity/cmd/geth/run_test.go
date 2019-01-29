@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/zdbrig/sagecity/internal/cmdtest"
+	"github.com/SagecityCore/sagecity/internal/cmdtest"
 )
 
 func tmpdir(t *testing.T) string {

@@ -21,7 +21,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/zdbrig/sagecity/event"
+	"github.com/SagecityCore/sagecity/event"
 )
 
 // Manager is an overarching account manager that can communicate with various

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

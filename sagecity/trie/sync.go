@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zdbrig/sagecity/common"
+	"github.com/SagecityCore/sagecity/common"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

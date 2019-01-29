@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/zdbrig/sagecity/log"
+	"github.com/SagecityCore/sagecity/log"
 )
 
 type brokenLimitedReader struct {

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/ethdb"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/ethdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

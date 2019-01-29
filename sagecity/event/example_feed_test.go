@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/zdbrig/sagecity/event"
+	"github.com/SagecityCore/sagecity/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

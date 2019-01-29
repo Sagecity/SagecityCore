@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/zdbrig/sagecity/cmd/utils"
-	swarm "github.com/zdbrig/sagecity/swarm/api/client"
+	"github.com/SagecityCore/sagecity/cmd/utils"
+	swarm "github.com/SagecityCore/sagecity/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

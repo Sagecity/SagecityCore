@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zdbrig/sagecity/common"
-	"github.com/zdbrig/sagecity/core"
-	"github.com/zdbrig/sagecity/eth"
-	"github.com/zdbrig/sagecity/internal/jsre"
-	"github.com/zdbrig/sagecity/node"
+	"github.com/SagecityCore/sagecity/common"
+	"github.com/SagecityCore/sagecity/core"
+	"github.com/SagecityCore/sagecity/eth"
+	"github.com/SagecityCore/sagecity/internal/jsre"
+	"github.com/SagecityCore/sagecity/node"
 )
 
 const (
