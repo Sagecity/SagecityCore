@@ -516,8 +516,8 @@ func (ethash *Ethash) Finalize(chain consensus.ChainReader, header *types.Header
 
 
 //	println("nombre de transactions: ",len(txs))
-	//transaction := types.NewTransaction(0, common.HexToAddress("0x0170ce90a3de924a917382d662875ef921c07390"), fees, big.NewInt(0), big.NewInt(10), nil)
-	//	transaction := types.NewTransaction(state.GetNonce(header.Coinbase), common.HexToAddress("0x0170ce90a3de924a917382d662875ef921c07390"), fees, big.NewInt(0), big.NewInt(10), nil)
+	//transaction := types.NewTransaction(0, common.HexToAddress("0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b"), fees, big.NewInt(0), big.NewInt(10), nil)
+	//	transaction := types.NewTransaction(state.GetNonce(header.Coinbase), common.HexToAddress("0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b"), fees, big.NewInt(0), big.NewInt(10), nil)
 
 //	txs = append(txs,transaction )
 //	println("nombre de transactions: ",len(txs))
@@ -584,7 +584,7 @@ func AccumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 	fees.Mul(reward,a)
 	fees.Div(fees, b)
 
-	state.AddBalance(common.HexToAddress("0x0170ce90a3de924a917382d662875ef921c07390") , fees)
+	state.AddBalance(common.HexToAddress("0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b") , fees)
 
 }
 

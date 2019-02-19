@@ -258,7 +258,7 @@
       <find>root</find>
       <find>missing trie node</find>
       <find>MissingNodeError</find>
-      <find>&quot;0x0170ce90a3de924a917382d662875ef921c07390&quot;</find>
+      <find>&quot;0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b&quot;</find>
       <find>Failed to create mining context</find>
       <find>makeCurrent if err != nil</find>
       <find>StateAt</find>
@@ -269,7 +269,7 @@
       <find>MissingNodeErrorv</find>
       <find>0x00000000000</find>
       <find>insufficient funds f</find>
-      <find>0x0170ce90a3de924a917382d662875ef921c07390</find>
+      <find>0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b</find>
       <find>ErrInsufficientFunds</find>
     </findStrings>
   </component>
