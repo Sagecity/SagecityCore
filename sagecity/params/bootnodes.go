@@ -20,9 +20,11 @@ package params
 // the main Ethereum network.
 var SagecitynetBootnodes = []string{
 	// Ethereum Foundation Go Bootnodes
-	"enode://d291f49f4dafd0def9ae675ecc65c0cd72c8c7de7c28a22011b91df5ea39eeed2c3979cc59b256dc54511fa17217851aa3af4ffe93dababd50483e8d6741d3d4@66.206.38.18:60888",// Amsterdam
-	"enode://9d331972c01d2ff45ca3f2b2945dcefd65a48611813fa45d544600edf064366165daf86553db013df5dfcb97afeed1400fae4b70d2318026bdad90428093ef2d@94.26.27.229:60888",
-	"enode://8b04f78863c015b95f99bf6f3c96864000acbb117c75d85f99ff41c7ce5d0942a673027d81862b77faf0b93f8a41c26e1df28a62c090e7db43d6719ad1a44c59@199.223.254.101:60888"}
+	"enode://6c6d558cceb1cc7e6b695ced7b88e86e891df08d102b3a08e3b09c5327b774d6b02650ed367c17e201ef303fb1971fe22f6774a61088da42ce420d31db235655@66.206.38.18:60888",// Amsterdam
+        "enode://b997f95a21bb7de6bf00fceb6e747daecbe558d82f1ff59e863c9b9a139a4f568e91c5c60384726130c7ad11327d012d9cf934ffbb9fbb15d800910c5914aed0@94.26.27.229:60888",
+
+       "enode://5438df8fcd6b49f693bfa454afac2e36052dddd35fbce81593062ef600c059a3eb269c1aa927f7a4a243e12d6a49c0ebd20ef449125e718bd8cf6546292c9064@199.223.254.101:60888",
+
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
 // Ropsten test network.
