@@ -201,16 +201,8 @@ func (in *Interpreter) Run(snapshot int, contract *Contract, input []byte) (ret 
 		if !in.cfg.DisableGasMetering {
 			// consume the gas and return an error if not enough gas is available.
 			// cost is explicitly set so that the capture state defer method cas get the proper cost
-			fmt.Print("Run gasTable is : ",in.gasTable)
-			fmt.Print("Run in.evm is : ",in.evm)
-			fmt.Print("Run contract is : ",contract)
-			fmt.Print("Run stack is : ",stack)
-			fmt.Print("Run mem is : ",mem)
-			fmt.Print("Run memorySize is : ",memorySize)
-
 			cost, err = operation.gasCost(in.gasTable, in.evm, contract, stack, mem, memorySize)
 			if err != nil || !contract.UseGas(cost) {
-				fmt.Print("contract.UseGas(cost)", contract.UseGas(cost))
 				return nil, ErrOutOfGas
 			}
 		}

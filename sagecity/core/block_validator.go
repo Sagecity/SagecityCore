@@ -78,8 +78,6 @@ func (v *BlockValidator) ValidateBody(block *types.Block) error {
 // otherwise nil and an error is returned.
 func (v *BlockValidator) ValidateState(block, parent *types.Block, statedb *state.StateDB, receipts types.Receipts, usedGas *big.Int) error {
 	header := block.Header()
-	fmt.Print("block.GasUsed() is : ", block.GasUsed(), "\n")
-	fmt.Print("usedGas is : ", usedGas, "\n")
 	if block.GasUsed().Cmp(usedGas) != 0 {
 		return fmt.Errorf("invalid gas used (remote: %v local: %v)", block.GasUsed(), usedGas)
 	}

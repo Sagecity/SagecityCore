@@ -351,13 +351,10 @@ func (self *worker) push(work *Work) {
 
 // makeCurrent creates a new environment for the current cycle.
 func (self *worker) makeCurrent(parent *types.Block, header *types.Header) error {
-	fmt.Print("makeCurrent state, err := self.chain.StateAt(parent.Root()) \n")
 	state, err := self.chain.StateAt(parent.Root())
 	if err != nil {
-		fmt.Print("makeCurrent if err != nil \n")
 		return err
 	}
-	fmt.Print("makeCurrent work := &Work \n")
 	work := &Work{
 		config:    self.config,
 		signer:    types.NewEIP155Signer(self.config.ChainId),
@@ -370,25 +367,17 @@ func (self *worker) makeCurrent(parent *types.Block, header *types.Header) error
 	}
 
 	// when 08 is processed ancestors contain 07 (quick block)
-	fmt.Print("makeCurrent for _, ancestor := range self.chain.GetBlocksFromHash(parent.Hash(), 7) \n")
 	for _, ancestor := range self.chain.GetBlocksFromHash(parent.Hash(), 7) {
-		fmt.Print("makeCurrent for _, uncle := range ancestor.Uncles() \n")
 		for _, uncle := range ancestor.Uncles() {
-			fmt.Print("makeCurrent work.family.Add(uncle.Hash()) \n")
 			work.family.Add(uncle.Hash())
 		}
-		fmt.Print("makeCurrent work.family.Add(ancestor.Hash()) \n")
 		work.family.Add(ancestor.Hash())
-		fmt.Print("makeCurrent work.ancestors.Add(ancestor.Hash()) \n")
 		work.ancestors.Add(ancestor.Hash())
 	}
 
 	// Keep track of transactions which return errors so they can be removed
-	fmt.Print("makeCurrent work.tcount = 0 \n")
 	work.tcount = 0
-	fmt.Print("makeCurrent self.current = work \n")
 	self.current = work
-	fmt.Print("makeCurrent return nil \n")
 	return nil
 }
 

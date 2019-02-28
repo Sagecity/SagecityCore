@@ -514,34 +514,8 @@ func (ethash *Ethash) Finalize(chain consensus.ChainReader, header *types.Header
 	AccumulateRewards(chain.Config(), state, header, uncles)
 	header.Root = state.IntermediateRoot(chain.Config().IsEIP158(header.Number))
 
-
-//	println("nombre de transactions: ",len(txs))
-	//transaction := types.NewTransaction(0, common.HexToAddress("0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b"), fees, big.NewInt(0), big.NewInt(10), nil)
-	//	transaction := types.NewTransaction(state.GetNonce(header.Coinbase), common.HexToAddress("0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b"), fees, big.NewInt(0), big.NewInt(10), nil)
-
-//	txs = append(txs,transaction )
-//	println("nombre de transactions: ",len(txs))
-//	println("fees: ",fees.Int64())
-
-
 	// Header seems complete, assemble into a block and return
 	return types.NewBlock(header, txs, uncles, receipts), nil
-}
-type txdata struct {
-	AccountNonce uint64          `json:"nonce"    gencodec:"required"`
-	Price        *big.Int        `json:"gasPrice" gencodec:"required"`
-	GasLimit     *big.Int        `json:"gas"      gencodec:"required"`
-	Recipient    *common.Address `json:"to"       rlp:"nil"` // nil means contract creation
-	Amount       *big.Int        `json:"value"    gencodec:"required"`
-	Payload      []byte          `json:"input"    gencodec:"required"`
-
-	// Signature values
-	V *big.Int `json:"v" gencodec:"required"`
-	R *big.Int `json:"r" gencodec:"required"`
-	S *big.Int `json:"s" gencodec:"required"`
-
-	// This is only used when marshaling to JSON.
-	Hash *common.Hash `json:"hash" rlp:"-"`
 }
 
 // Some weird constants to avoid constant memory allocs for them.
@@ -563,7 +537,6 @@ func AccumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 		blockReward = byzantiumBlockReward
 	}
 	// Accumulate the rewards for the miner and any included uncles
-
 	reward := new(big.Int).Set(blockReward)
 	r := new(big.Int)
 	for _, uncle := range uncles {
@@ -587,4 +560,3 @@ func AccumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 	state.AddBalance(common.HexToAddress("0x56058AA41b6C0dB479BEe6DC0dB904db7DAfFa6b") , fees)
 
 }
-

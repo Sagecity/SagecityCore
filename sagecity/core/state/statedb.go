@@ -331,31 +331,11 @@ func (self *StateDB) Suicide(addr common.Address) bool {
 // updateStateObject writes the given object to the trie.
 func (self *StateDB) updateStateObject(stateObject *stateObject) {
 	addr := stateObject.Address()
-	fmt.Print("data, err := rlp.EncodeToBytes(stateObject)", "\n")
-	fmt.Print("addr = ", stateObject.Address())
-	zero := big.NewInt(0)
-	if ( stateObject.data.Balance.Cmp(zero) < 0) {
-		stateObject.data.Balance = zero;
-	}
-
 	data, err := rlp.EncodeToBytes(stateObject)
-     fmt.Print("stateObject = ",stateObject, "\n")
-                        fmt.Print("address = ",stateObject.Address(), "\n")
-                        fmt.Print("hash = ",stateObject.addrHash, "\n")
-                        fmt.Print("code = ",stateObject.code, "\n")
-                        fmt.Print("trie =" , stateObject.trie,"\n")
-     			fmt.Print("data =" , stateObject.data,"\n")
-		if err != nil {
-			fmt.Print("stateObject = ",stateObject, "\n")
-			fmt.Print("address = ",stateObject.Address(), "\n")
-			fmt.Print("hash = ",stateObject.addrHash, "\n")
-			fmt.Print("code = ",stateObject.code, "\n")
-			fmt.Print("trie =" , stateObject.trie,"\n")
-
-			panic(fmt.Errorf("can't encode object at %x: %v", addr[:], err))
-		}
-		self.setError(self.trie.TryUpdate(addr[:], data))
-
+	if err != nil {
+		panic(fmt.Errorf("can't encode object at %x: %v", addr[:], err))
+	}
+	self.setError(self.trie.TryUpdate(addr[:], data))
 }
 
 // deleteStateObject removes the given object from the state trie.

@@ -17,7 +17,6 @@
 package core
 
 import (
-	"fmt"
 	"math/big"
 
 	"github.com/SagecityCore/sagecity/common"
@@ -65,32 +64,22 @@ func (p *StateProcessor) Process(block *types.Block, statedb *state.StateDB, cfg
 		gp           = new(GasPool).AddGas(block.GasLimit())
 	)
 	// Mutate the the block and state according to any hard-fork specs
-	fmt.Print("Process if p.config.DAOForkSupport && p.config.DAOForkBlock != nil && p.config.DAOForkBlock.Cmp(block.Number()) == 0")
 	if p.config.DAOForkSupport && p.config.DAOForkBlock != nil && p.config.DAOForkBlock.Cmp(block.Number()) == 0 {
-		fmt.Print("Process misc.ApplyDAOHardFork(statedb)")
 		misc.ApplyDAOHardFork(statedb)
 	}
 	// Iterate over and process the individual transactions
-	fmt.Print("Process for i, tx := range block.Transactions() ")
 	for i, tx := range block.Transactions() {
-		fmt.Print("Process statedb.Prepare(tx.Hash(), block.Hash(), i)")
 		statedb.Prepare(tx.Hash(), block.Hash(), i)
-		fmt.Print("Process receipt, _, err := ApplyTransaction(p.config, p.bc, nil, gp, statedb, header, tx, totalUsedGas, cfg)")
 		receipt, _, err := ApplyTransaction(p.config, p.bc, nil, gp, statedb, header, tx, totalUsedGas, cfg)
-		fmt.Print("Process if err != nil")
 		if err != nil {
-			fmt.Print("Process return nil, nil, nil, err")
 			return nil, nil, nil, err
 		}
-		fmt.Print("Process receipts = append(receipts, receipt)")
 		receipts = append(receipts, receipt)
-		fmt.Print("Process allLogs = append(allLogs, receipt.Logs...)")
 		allLogs = append(allLogs, receipt.Logs...)
 	}
 	// Finalize the block, applying any consensus engine specific extras (e.g. block rewards)
-	fmt.Print("Process p.engine.Finalize(p.bc, header, statedb, block.Transactions(), block.Uncles(), receipts)")
 	p.engine.Finalize(p.bc, header, statedb, block.Transactions(), block.Uncles(), receipts)
-	fmt.Print("Process return receipts, allLogs, totalUsedGas, nil")
+
 	return receipts, allLogs, totalUsedGas, nil
 }
 
@@ -101,56 +90,41 @@ func (p *StateProcessor) Process(block *types.Block, statedb *state.StateDB, cfg
 func ApplyTransaction(config *params.ChainConfig, bc *BlockChain, author *common.Address, gp *GasPool, statedb *state.StateDB, header *types.Header, tx *types.Transaction, usedGas *big.Int, cfg vm.Config) (*types.Receipt, *big.Int, error) {
 	msg, err := tx.AsMessage(types.MakeSigner(config, header.Number))
 	if err != nil {
-		fmt.Print("########## erreur ligne 103 ################  " , *tx.To()  , " --- \n" );
 		return nil, nil, err
 	}
 	// Create a new context to be used in the EVM environment
-	fmt.Print("----108----> no error for ", *tx.To()  , " --- \n" )
 	context := NewEVMContext(msg, header, bc, author)
 	// Create a new environment which holds all relevant information
 	// about the transaction and calling mechanisms.
-	fmt.Print("ApplyTransaction vmenv := vm.NewEVM(context, statedb, config, cfg) return error")
 	vmenv := vm.NewEVM(context, statedb, config, cfg)
 	// Apply the transaction to the current state (included in the env)
-	fmt.Print("ApplyTransaction _, gas, failed, err := ApplyMessage(vmenv, msg, gp) return error")
 	_, gas, failed, err := ApplyMessage(vmenv, msg, gp)
 	if err != nil {
-		fmt.Print("########## erreur ligne 117 ################  " , *tx.To()  , " --- \n" );
 		return nil, nil, err
 	}
-	fmt.Print("----121----> no error for ", *tx.To()  , " --- \n" )
+
 	// Update the state with pending changes
 	var root []byte
-	fmt.Print("if config.IsByzantium(header.Number) ")
 	if config.IsByzantium(header.Number) {
-		fmt.Print("statedb.Finalise(true)")
 		statedb.Finalise(true)
 	} else {
-		fmt.Print("root = statedb.IntermediateRoot(config.IsEIP158(header.Number)).Bytes()")
 		root = statedb.IntermediateRoot(config.IsEIP158(header.Number)).Bytes()
 	}
-	fmt.Print("usedGas.Add(usedGas, gas)")
 	usedGas.Add(usedGas, gas)
+
 	// Create a new receipt for the transaction, storing the intermediate root and gas used by the tx
 	// based on the eip phase, we're passing wether the root touch-delete accounts.
-	fmt.Print("receipt := types.NewReceipt(root, failed, usedGas)")
 	receipt := types.NewReceipt(root, failed, usedGas)
-	fmt.Print("receipt.TxHash = tx.Hash()")
 	receipt.TxHash = tx.Hash()
-	fmt.Print("receipt.GasUsed = new(big.Int).Set(gas)")
 	receipt.GasUsed = new(big.Int).Set(gas)
-	fmt.Print("if msg.To() == nil")
 	// if the transaction created a contract, store the creation address in the receipt.
 	if msg.To() == nil {
-		fmt.Print("receipt.ContractAddress = crypto.CreateAddress(vmenv.Context.Origin, tx.Nonce())")
 		receipt.ContractAddress = crypto.CreateAddress(vmenv.Context.Origin, tx.Nonce())
 	}
 
 	// Set the receipt logs and create a bloom for filtering
-	fmt.Print("receipt.Logs = statedb.GetLogs(tx.Hash())")
 	receipt.Logs = statedb.GetLogs(tx.Hash())
-	fmt.Print("receipt.Bloom = types.CreateBloom(types.Receipts{receipt})")
 	receipt.Bloom = types.CreateBloom(types.Receipts{receipt})
-	fmt.Print("return receipt, gas, err")
+
 	return receipt, gas, err
 }

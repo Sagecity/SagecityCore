@@ -18,7 +18,6 @@ package core
 
 import (
 	"errors"
-	"fmt"
 	"math/big"
 
 	"github.com/SagecityCore/sagecity/common"
@@ -158,12 +157,8 @@ func (st *StateTransition) to() vm.AccountRef {
 }
 
 func (st *StateTransition) useGas(amount uint64) error {
-	fmt.Print("func (st *StateTransition) useGas(amount uint64) error")
-
 	if st.gas < amount {
-		fmt.Print("useGas : if st.gas < amount ")
 		return vm.ErrOutOfGas
-
 	}
 	st.gas -= amount
 
@@ -228,7 +223,6 @@ func (st *StateTransition) TransitionDb() (ret []byte, requiredGas, usedGas *big
 	// TODO convert to uint64
 	intrinsicGas := IntrinsicGas(st.data, contractCreation, homestead)
 	if intrinsicGas.BitLen() > 64 {
-		fmt.Print("IntrinsicGas : if intrinsicGas.BitLen() > 64 \n")
 		return nil, nil, nil, false, vm.ErrOutOfGas
 	}
 	if err = st.useGas(intrinsicGas.Uint64()); err != nil {

@@ -372,13 +372,11 @@ func (pool *TxPool) validateTx(ctx context.Context, tx *types.Transaction) error
 	// Transactor should have enough funds to cover the costs
 	// cost == V + GP * GL
 	if b := currentState.GetBalance(from); b.Cmp(tx.Cost()) < 0 {
-		fmt.Print("currentState.GetBalance(from): ",b," tx.Cost(): ",tx.Cost()," difference: ",b.Cmp(tx.Cost()),"\n")
 		return core.ErrInsufficientFunds
 	}
 
 	// Should supply enough intrinsic gas
 	if tx.Gas().Cmp(core.IntrinsicGas(tx.Data(), tx.To() == nil, pool.homestead)) < 0 {
-		fmt.Print("tx.Gas(): ",tx.Gas()," core.IntrinsicGas(tx.Data(), tx.To() == nil, pool.homestead): ",core.IntrinsicGas(tx.Data(), tx.To() == nil, pool.homestead)," difference: ",tx.Gas().Cmp(core.IntrinsicGas(tx.Data(), tx.To() == nil, pool.homestead)),"\n")
 		return core.ErrIntrinsicGas
 	}
 

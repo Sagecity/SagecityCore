@@ -116,11 +116,6 @@ func generateCache(dest []uint32, epoch uint64, seed []byte) {
 		for {
 			select {
 			case <-done:
-				println("algorithme.go case <-done:")
-				println(done)
-				println("****************")
-				println("****************")
-				println("****************")
 				return
 			case <-time.After(3 * time.Second):
 				logger.Info("Generating ethash verification cache", "percentage", atomic.LoadUint32(&progress)*100/uint32(rows)/4, "elapsed", common.PrettyDuration(time.Since(start)))

@@ -78,26 +78,18 @@ type cachingDB struct {
 }
 
 func (db *cachingDB) OpenTrie(root common.Hash) (Trie, error) {
-	fmt.Print("OpenTrie db.mu.Lock()", "/n")
 	db.mu.Lock()
-	fmt.Print("OpenTrie defer db.mu.Unlock()", "/n")
 	defer db.mu.Unlock()
-	fmt.Print("OpenTrie for i := len(db.pastTries) - 1; i >= 0; i--  ", "/n")
+
 	for i := len(db.pastTries) - 1; i >= 0; i-- {
-		fmt.Print("OpenTrie if db.pastTries[i].Hash() == root", "/n")
 		if db.pastTries[i].Hash() == root {
-			fmt.Print("OpenTrie return cachedTrie{db.pastTries[i].Copy(), db}, nil", db.pastTries[i].Hash() , " == root" ,"/n")
 			return cachedTrie{db.pastTries[i].Copy(), db}, nil
 		}
 	}
-	fmt.Print("OpenTrie tr, err := trie.NewSecure(root, db.db, MaxTrieCacheGen)", "/n")
 	tr, err := trie.NewSecure(root, db.db, MaxTrieCacheGen)
-	fmt.Print("OpenTrie if err != nil ")
 	if err != nil {
-		fmt.Print("OpenTrie return nil, err","tr : ",tr," err : ",err, "/n")
 		return nil, err
 	}
-	fmt.Print("OpenTrie return cachedTrie{tr, db}, nil", " db : ",db, "/n")
 	return cachedTrie{tr, db}, nil
 }
 

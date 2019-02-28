@@ -59,16 +59,11 @@ func NewSecure(root common.Hash, db Database, cachelimit uint16) (*SecureTrie, e
 	if db == nil {
 		panic("NewSecure called with nil database")
 	}
-	fmt.Print("NewSecure trie, err := New(root, db)", "\n")
 	trie, err := New(root, db)
-	fmt.Print("NewSecure if err != nil"," trie : ",trie," root: ",root," db: ",db, "\n")
 	if err != nil {
-		fmt.Print("NewSecure return nil, err : ", err, "\n")
 		return nil, err
 	}
-	fmt.Print("NewSecure trie.SetCacheLimit(cachelimit)", "\n")
 	trie.SetCacheLimit(cachelimit)
-	fmt.Print("NewSecure return &SecureTrie{trie: *trie}, nil", "\n")
 	return &SecureTrie{trie: *trie}, nil
 }
 

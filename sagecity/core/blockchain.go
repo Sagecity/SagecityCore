@@ -552,15 +552,6 @@ func (bc *BlockChain) GetBlock(hash common.Hash, number uint64) *types.Block {
 	return block
 }
 
-
-
-
-
-
-
-
-
-
 // GetBlockByHash retrieves a block from the database by hash, caching it if found.
 func (bc *BlockChain) GetBlockByHash(hash common.Hash) *types.Block {
 	return bc.GetBlock(hash, bc.hc.GetBlockNumber(hash))
@@ -921,11 +912,9 @@ func (bc *BlockChain) insertChain(chain types.Blocks) (int, []interface{}, []*ty
 		}
 		// If the header is a banned one, straight out abort
 		if BadHashes[block.Hash()] {
-			fmt.Print("bad hashes error : ", BadHashes[block.Hash()])
 			bc.reportBlock(block, nil, ErrBlacklistedHash)
 			return i, events, coalescedLogs, ErrBlacklistedHash
 		}
-
 		// Wait for the block's verification to complete
 		bstart := time.Now()
 
@@ -960,7 +949,6 @@ func (bc *BlockChain) insertChain(chain types.Blocks) (int, []interface{}, []*ty
 
 			bc.reportBlock(block, nil, err)
 			return i, events, coalescedLogs, err
-
 		}
 		// Create a new statedb using the parent block and report an
 		// error if it fails.
@@ -976,25 +964,16 @@ func (bc *BlockChain) insertChain(chain types.Blocks) (int, []interface{}, []*ty
 		}
 		// Process block using the parent state as reference point.
 		receipts, logs, usedGas, err := bc.processor.Process(block, state, bc.vmConfig)
-
 		if err != nil {
-			fmt.Print("error : receipts, logs, usedGas, err := bc.processor.Process(block, state, bc.vmConfig)")
 			bc.reportBlock(block, receipts, err)
 			return i, events, coalescedLogs, err
 		}
-
-			err = bc.Validator().ValidateState(block, parent, state, receipts, usedGas)
-			if err != nil {
-				fmt.Print("error : err = bc.Validator().ValidateState(block, parent, state, receipts, usedGas)")
-				bc.reportBlock(block, receipts, err)
-				return i, events, coalescedLogs, err
-			}
-
-
-
-
 		// Validate the state using the default validator
-
+		err = bc.Validator().ValidateState(block, parent, state, receipts, usedGas)
+		if err != nil {
+			bc.reportBlock(block, receipts, err)
+			return i, events, coalescedLogs, err
+		}
 		// Write the block to the chain and get the status.
 		status, err := bc.WriteBlockAndState(block, receipts, state)
 		if err != nil {

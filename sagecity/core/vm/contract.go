@@ -17,7 +17,6 @@
 package vm
 
 import (
-	"fmt"
 	"math/big"
 
 	"github.com/SagecityCore/sagecity/common"
@@ -123,13 +122,9 @@ func (c *Contract) Caller() common.Address {
 // UseGas attempts the use gas and subtracts it and returns true on success
 func (c *Contract) UseGas(gas uint64) (ok bool) {
 	if c.Gas < gas {
-		fmt.Print("c.Gas < gas : c.Gas = ", c.Gas)
-		fmt.Print("c.Gas < gas : c.Gas = ", gas)
 		return false
 	}
 	c.Gas -= gas
-	fmt.Print("c.Gas = ", c.Gas)
-	fmt.Print("c.Gas = ", gas)
 	return true
 }
 

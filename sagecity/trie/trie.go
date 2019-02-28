@@ -112,26 +112,17 @@ func (t *Trie) newFlag() nodeFlag {
 // New will panic if db is nil and returns a MissingNodeError if root does
 // not exist in the database. Accessing the trie loads nodes from db on demand.
 func New(root common.Hash, db Database) (*Trie, error) {
-	fmt.Print("New trie := &Trie{db: db, originalRoot: root}", "\n")
 	trie := &Trie{db: db, originalRoot: root}
-	fmt.Print("New if (root != common.Hash{}) && root != emptyRoot", trie ,"\n")
 	if (root != common.Hash{}) && root != emptyRoot {
-		fmt.Print("New if db == nil ", "root : ",root," common.Hash{}",common.Hash{}," emptyRoot",emptyRoot,"\n")
 		if db == nil {
-			fmt.Print("New"," db : ",db, "\n")
-			panic("trie.New: cannot use existing root without a database \n")
+			panic("trie.New: cannot use existing root without a database")
 		}
-		fmt.Print("New rootnode, err := trie.resolveHash(root[:], nil)", "\n")
 		rootnode, err := trie.resolveHash(root[:], nil)
-		fmt.Print("New if err != nil", "\n")
 		if err != nil {
-			fmt.Print("New return nil, err"," rootnode : ",rootnode, "\n")
 			return nil, err
 		}
-		fmt.Print("New trie.root = rootnode", "\n")
 		trie.root = rootnode
 	}
-	fmt.Print("New return trie, nil", " trie: ",trie, "\n")
 	return trie, nil
 }
 
@@ -454,18 +445,13 @@ func (t *Trie) resolve(n node, prefix []byte) (node, error) {
 }
 
 func (t *Trie) resolveHash(n hashNode, prefix []byte) (node, error) {
-	fmt.Print("resolveHash hashNode: ",n,"\n")
-	fmt.Print("resolveHash prefix: ",prefix,"\n")
 	cacheMissCounter.Inc(1)
-	fmt.Print("resolveHash enc, err := t.db.Get(n) ")
+
 	enc, err := t.db.Get(n)
 	if err != nil || enc == nil {
-		fmt.Print("resolveHash if err != nil || enc == nil ")
 		return nil, &MissingNodeError{NodeHash: common.BytesToHash(n), Path: prefix}
 	}
-	fmt.Print("resolveHash dec := mustDecodeNode(n, enc, t.cachegen)")
 	dec := mustDecodeNode(n, enc, t.cachegen)
-	fmt.Print("resolveHash return dec, nil")
 	return dec, nil
 }
 
